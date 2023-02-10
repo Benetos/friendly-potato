@@ -30,7 +30,7 @@ class Reusable: ObservableObject {
         let parameters = "{stuff here}"
         let postData = parameters.data(using: .utf8)
         
-        var request = URLRequest(url: URL(string: "https://staff.faithchurch.com/api/Auth/Login")!,timeoutInterval: Double.infinity)
+        var request = URLRequest(url: URL(string: "https://website.com/api/Auth/Login")!,timeoutInterval: Double.infinity)
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         //request.addValue(".ROCK=FC4AF0BAC75F4E1CAFF5F0C8D42DA7CA92D3625A3B70F1947F604D0982C55DBB26DAF66C588EC37040FC4B3B4AEC62AF8509F2D16319B1F28AB5B86B2352932560BA573C7C56106D95F6142E9A31B9B29D4288B3F553F9A65D26D32AF61C88E2DD5C24F3", forHTTPHeaderField: "Cookie")
         
