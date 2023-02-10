@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D035D89B29940FA200D8B745 /* PrayerCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D035D89A29940FA100D8B745 /* PrayerCounter.swift */; };
+		D035D89D2994536800D8B745 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D035D89C2994536800D8B745 /* Credentials.swift */; };
+		D0CCEA132991F28600082D1E /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CCEA122991F28600082D1E /* RequestView.swift */; };
+		D0CCEA152992153300082D1E /* ResponsePrayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CCEA142992153300082D1E /* ResponsePrayer.swift */; };
+		D0CCEA17299224D400082D1E /* PrayerViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CCEA16299224D400082D1E /* PrayerViewTest.swift */; };
+		D0CCEA1A299227F500082D1E /* PrayerTestList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CCEA19299227F500082D1E /* PrayerTestList.swift */; };
+		D0CD394829492C000050BEA6 /* PrayerRockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD394729492C000050BEA6 /* PrayerRockApp.swift */; };
+		D0CD394A29492C000050BEA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD394929492C000050BEA6 /* ContentView.swift */; };
+		D0CD394C29492C020050BEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CD394B29492C020050BEA6 /* Assets.xcassets */; };
+		D0CD395029492C020050BEA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CD394F29492C020050BEA6 /* Preview Assets.xcassets */; };
+		D0CD395729492C2D0050BEA6 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD395629492C2D0050BEA6 /* PersonModel.swift */; };
+		D0CD39592949480C0050BEA6 /* PrayerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD39582949480B0050BEA6 /* PrayerRequest.swift */; };
+		D0CD395B294948210050BEA6 /* PrayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD395A294948210050BEA6 /* PrayerModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D035D89A29940FA100D8B745 /* PrayerCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerCounter.swift; sourceTree = "<group>"; };
+		D035D89C2994536800D8B745 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		D0CCEA122991F28600082D1E /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+		D0CCEA142992153300082D1E /* ResponsePrayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePrayer.swift; sourceTree = "<group>"; };
+		D0CCEA16299224D400082D1E /* PrayerViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerViewTest.swift; sourceTree = "<group>"; };
+		D0CCEA19299227F500082D1E /* PrayerTestList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTestList.swift; sourceTree = "<group>"; };
+		D0CD394429492C000050BEA6 /* PrayerRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CD394729492C000050BEA6 /* PrayerRockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerRockApp.swift; sourceTree = "<group>"; };
+		D0CD394929492C000050BEA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0CD394B29492C020050BEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0CD394D29492C020050BEA6 /* PrayerRock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrayerRock.entitlements; sourceTree = "<group>"; };
+		D0CD394F29492C020050BEA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0CD395629492C2D0050BEA6 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		D0CD39582949480B0050BEA6 /* PrayerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerRequest.swift; sourceTree = "<group>"; };
+		D0CD395A294948210050BEA6 /* PrayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0CD394129492C000050BEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0CCEA18299227D900082D1E /* Test View */ = {
+			isa = PBXGroup;
+			children = (
+				D0CCEA16299224D400082D1E /* PrayerViewTest.swift */,
+				D0CCEA19299227F500082D1E /* PrayerTestList.swift */,
+			);
+			path = "Test View";
+			sourceTree = "<group>";
+		};
+		D0CCEA1B2992B89000082D1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD395629492C2D0050BEA6 /* PersonModel.swift */,
+				D035D89C2994536800D8B745 /* Credentials.swift */,
+				D0CD39582949480B0050BEA6 /* PrayerRequest.swift */,
+				D0CD395A294948210050BEA6 /* PrayerModel.swift */,
+				D035D89A29940FA100D8B745 /* PrayerCounter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0CD393B29492BFF0050BEA6 = {
+			isa = PBXGroup;
+			children = (
+				D0CD394629492C000050BEA6 /* PrayerRock */,
+				D0CD394529492C000050BEA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CD394529492C000050BEA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD394429492C000050BEA6 /* PrayerRock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0CD394629492C000050BEA6 /* PrayerRock */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD394729492C000050BEA6 /* PrayerRockApp.swift */,
+				D0CD394929492C000050BEA6 /* ContentView.swift */,
+				D0CCEA122991F28600082D1E /* RequestView.swift */,
+				D0CCEA142992153300082D1E /* ResponsePrayer.swift */,
+				D0CCEA1B2992B89000082D1E /* Models */,
+				D0CCEA18299227D900082D1E /* Test View */,
+				D0CD394B29492C020050BEA6 /* Assets.xcassets */,
+				D0CD394D29492C020050BEA6 /* PrayerRock.entitlements */,
+				D0CD394E29492C020050BEA6 /* Preview Content */,
+			);
+			path = PrayerRock;
+			sourceTree = "<group>";
+		};
+		D0CD394E29492C020050BEA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD394F29492C020050BEA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0CD394329492C000050BEA6 /* PrayerRock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CD395329492C020050BEA6 /* Build configuration list for PBXNativeTarget "PrayerRock" */;
+			buildPhases = (
+				D0CD394029492C000050BEA6 /* Sources */,
+				D0CD394129492C000050BEA6 /* Frameworks */,
+				D0CD394229492C000050BEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrayerRock;
+			productName = PrayerRock;
+			productReference = D0CD394429492C000050BEA6 /* PrayerRock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0CD393C29492BFF0050BEA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D0CD394329492C000050BEA6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D0CD393F29492BFF0050BEA6 /* Build configuration list for PBXProject "PrayerRock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0CD393B29492BFF0050BEA6;
+			productRefGroup = D0CD394529492C000050BEA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0CD394329492C000050BEA6 /* PrayerRock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CD394229492C000050BEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CD395029492C020050BEA6 /* Preview Assets.xcassets in Resources */,
+				D0CD394C29492C020050BEA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0CD394029492C000050BEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CD395B294948210050BEA6 /* PrayerModel.swift in Sources */,
+				D0CD395729492C2D0050BEA6 /* PersonModel.swift in Sources */,
+				D0CCEA152992153300082D1E /* ResponsePrayer.swift in Sources */,
+				D0CCEA132991F28600082D1E /* RequestView.swift in Sources */,
+				D0CD394A29492C000050BEA6 /* ContentView.swift in Sources */,
+				D035D89D2994536800D8B745 /* Credentials.swift in Sources */,
+				D035D89B29940FA200D8B745 /* PrayerCounter.swift in Sources */,
+				D0CCEA17299224D400082D1E /* PrayerViewTest.swift in Sources */,
+				D0CCEA1A299227F500082D1E /* PrayerTestList.swift in Sources */,
+				D0CD39592949480C0050BEA6 /* PrayerRequest.swift in Sources */,
+				D0CD394829492C000050BEA6 /* PrayerRockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0CD395129492C020050BEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0CD395229492C020050BEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D0CD395429492C020050BEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PrayerRock/PrayerRock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrayerRock/Preview Content\"";
+				DEVELOPMENT_TEAM = XFLHUAJMJM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wunderland.PrayerRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0CD395529492C020050BEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PrayerRock/PrayerRock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrayerRock/Preview Content\"";
+				DEVELOPMENT_TEAM = XFLHUAJMJM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wunderland.PrayerRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0CD393F29492BFF0050BEA6 /* Build configuration list for PBXProject "PrayerRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CD395129492C020050BEA6 /* Debug */,
+				D0CD395229492C020050BEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CD395329492C020050BEA6 /* Build configuration list for PBXNativeTarget "PrayerRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CD395429492C020050BEA6 /* Debug */,
+				D0CD395529492C020050BEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0CD393C29492BFF0050BEA6 /* Project object */;
+}
