@@ -105,7 +105,7 @@ struct PrayerViewTest: View {
     func placeOrder() async {
         //var semaphore = DispatchSemaphore (value: 0)
         
-        guard let url = URL(string: "https://staff.faithchurch.com/api/PrayerRequests/Prayed/\(prayer.id)?recordinteraction=true") else { fatalError("Missing URL")}
+        guard let url = URL(string: "https://website.com/api/\(prayer.id)?recordinteraction=true") else { fatalError("Missing URL")}
         
         var request = URLRequest(url: url)
         
